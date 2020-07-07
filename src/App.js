@@ -1,9 +1,16 @@
 import React from 'react';
 import './App.css';
 
+import LinkForm from './components/LinkForm';
+import Links from './components/Links';
+
+
 function App() {
     return (
-        <h1>Hola</h1>
+        <>
+            <LinkForm/>
+            <Links/>
+        </>
     );
 }
 
