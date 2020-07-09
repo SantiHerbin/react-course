@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import LinkForm from './components/LinkForm';
 import Links from './components/Links';
 
 
 function App() {
     return (
-        <>
-            <LinkForm/>
-            <Links/>
-        </>
+        <div className="container p-4">
+            <div className="row">
+                <Links/>
+            </div>
+        </div>
     );
 }
 
