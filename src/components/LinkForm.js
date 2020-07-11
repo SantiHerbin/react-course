@@ -23,7 +23,7 @@ const LinkForm = (props) => {
   return (
     <form className="card card-body" onSubmit={handleSubmit}>
       <div className="form-group input-group">
-        <div className="input-group-text bg-light">
+        <div className="input-group-text bg-primary">
           <i className="material-icons">insert_link</i>
         </div>
         <input
@@ -36,7 +36,7 @@ const LinkForm = (props) => {
         />
       </div>
       <div className="form-group input-group">
-        <div className="input-group-text bg-light">
+        <div className="input-group-text bg-primary">
           <i className="material-icons">create</i>
         </div>
         <input
